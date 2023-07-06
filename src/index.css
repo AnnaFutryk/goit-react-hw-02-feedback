@@ -7,6 +7,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #cf1908, #ead30b);
+  background-size: 200% 100%;
+  animation: gradient 10s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 100% 0;
+  }
 }
 
 code {
