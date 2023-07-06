@@ -6,4 +6,5 @@ export const SectionWrap = styled.section`
 
 export const SectionTitle = styled.h2`
   text-align: center;
+  font-size: 40px;
 `;
